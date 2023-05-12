@@ -1,0 +1,18 @@
+.footer-links { background: #f8f8f8; }
+
+.footer-links li:not(:last-of-type) { margin-bottom: 10px; }
+
+.footer-links li a:hover { color: var(--main-color); }
+
+.footer-logo { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@media (max-width:767px) {
+
+    .footer-logo { max-width: 200px; margin: 20px auto 0; }
+    
+}

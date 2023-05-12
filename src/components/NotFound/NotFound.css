@@ -1,0 +1,39 @@
+.not-found { min-height: 600px; position: relative; }
+
+.not-found .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: inherit;
+}
+
+.not-found::before {
+    content: "";
+    position: absolute;
+    background: url(../../assets/images/logo.png) no-repeat center;
+    background-size: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .1;
+}
+
+.not-found .title { font-size: 45px; text-transform: uppercase; }
+
+@media (max-width:767px) {
+
+    .not-found { min-height: 400px; }
+
+    .not-found::before { background-size: 350px; }
+    }
+
+@media (max-width:575px) {
+
+    .not-found { min-height: 200px; }
+
+    .not-found::before { background-size: 250px; }
+    
+    .not-found .title { font-size: 28px; }
+}

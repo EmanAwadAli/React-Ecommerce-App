@@ -1,0 +1,7 @@
+.pagination { display: flex; align-items: center; justify-content: center; margin-top: 20px;}
+
+.pagination li { margin: 0 5px; }
+
+.pagination .page-link { font-weight: 600; color: var(--main-color2);}
+
+.pagination .page-link:hover { background: var(--main-color2); color: #fff; }

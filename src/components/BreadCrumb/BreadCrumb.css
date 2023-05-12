@@ -1,0 +1,15 @@
+.nav-breadcrumb { font-weight: 600; text-align: center; padding: 20px 0; margin-bottom: 20px; background: #eee; }
+
+.nav-breadcrumb .breadcrumb .active { color: var(--main-color);}
+
+@media (max-width:575px) {
+
+    .breadcrumb li { font-size: 14px; }
+    
+}
+
+@media (max-width:575px) {
+
+    .breadcrumb li { font-size: 13px; }
+    
+}
