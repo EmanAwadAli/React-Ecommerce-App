@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://EmanAwadAli.github.io/Ecommerce_App",
+  "homepage": "https://emanwork.github.io/test",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
