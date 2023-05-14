@@ -17,6 +17,8 @@
 
 .btns-group .btn:first-of-type { color: var(--main-color); border-right: 1px solid #eee;}
 
+.btns-group .btn:active { border-color: #eee!important; }
+
 .btns-group .btn:last-of-type { color: var(--main-color2);}
 
 @media (max-width:1366px) {

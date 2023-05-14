@@ -33,7 +33,6 @@ export default function App() {
   useEffect(() => {
     if (localStorage.getItem("userToken") !== null) {
       saveUserData();
-      console.log(user);
     }
   }, []);
 
