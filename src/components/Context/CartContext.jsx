@@ -91,7 +91,7 @@ export default function CartContextProvider({ children }) {
   function onlinePayment(token, cartId, shippingAddress) {
     return axios
       .post(
-        `${baseUrl}/orders/checkout-session/${cartId}?url=http://localhost:5174`,
+        `${baseUrl}/orders/checkout-session/${cartId}?url=https://ecommerce-app-lime.vercel.app`,
         {
           shippingAddress,
         },
