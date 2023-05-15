@@ -8,11 +8,14 @@ export default function AllOrders() {
   const [allOrders, setAllOrders] = useState([]);
   let id = jwtDecode(localStorage.getItem("userToken")).id;
 
+  console.log(id);
+
   // Get All User Orders
   async function getAllOrders() {
     await axios
       .get(`${baseUrl}/orders/user/${id}`)
       .then((response) => {
+        console.log(response);
         if (response.status === 200) {
           setAllOrders(response.data);
         }

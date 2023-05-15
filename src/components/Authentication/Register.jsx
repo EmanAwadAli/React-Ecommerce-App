@@ -48,9 +48,9 @@ export default function Register() {
           navigate("/login");
         }
       })
-      .catch((err) => {
-        if (err.response.status === 409) {
-          notify(err.response.data.message, "error");
+      .catch((error) => {
+        if (error.response.status === 409) {
+          notify(error.response.data.message, "error");
           setLoading(false);
         }
       });

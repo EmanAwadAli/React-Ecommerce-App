@@ -39,7 +39,7 @@ export default function Login({ saveUserData }) {
       .catch((error) => {
         if (error.response.status === 401) {
           setloading(false);
-          notify(err.response.data.message, "error");
+          notify(error.response.data.message, "error");
         }
       });
   }

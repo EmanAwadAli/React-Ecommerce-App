@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { RouterProvider, createHashRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createHashRouter,
+} from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import Products from "./components/Products/Products";
@@ -36,7 +40,7 @@ export default function App() {
     }
   }, []);
 
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout user={user} setUser={setUser} />,
