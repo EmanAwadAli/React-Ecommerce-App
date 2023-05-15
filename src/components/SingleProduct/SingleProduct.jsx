@@ -111,11 +111,11 @@ export default function SingleProduct() {
                     <i className="fa-solid fa-star text-warning me-1"></i>
                     {productDetails.ratingsAverage}
                   </p>
-                  <p className="desc">{productDetails.description}</p>
                   <p className="price">
                     {productDetails.price}
                     <strong className="currency"> EGP</strong>
                   </p>
+                  <p className="desc">{productDetails.description}</p>
                   <button
                     className="add btn add"
                     onClick={() => addProductToCartHandler(productDetails._id)}
