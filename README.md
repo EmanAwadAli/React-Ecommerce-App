@@ -34,4 +34,4 @@ npm run dev
 
 ![image](https://github.com/EmanAwadAli/React-Ecommerce-App/assets/54704537/fa4922e5-ae96-462b-8959-6feb5841f90e)
 
-###### 👉 Deployment Link : [trending-movies](https://react-ecommerce-app-beta.vercel.app/)
+###### 👉 Deployment Link : [react-ecommerce-app](https://react-ecommerce-app-beta.vercel.app/)
