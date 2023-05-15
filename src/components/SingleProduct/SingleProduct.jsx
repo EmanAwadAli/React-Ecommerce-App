@@ -107,11 +107,11 @@ export default function SingleProduct() {
                 {/* Details */}
                 <div className="details">
                   <h2 className="title">{productDetails.title}</h2>
-                  <p className="rating">
+                  <p className="rating fs-5 fw-bold">
                     <i className="fa-solid fa-star text-warning me-1"></i>
                     {productDetails.ratingsAverage}
                   </p>
-                  <p className="price">
+                  <p className="price fs-5 fw-bold">
                     {productDetails.price}
                     <strong className="currency"> EGP</strong>
                   </p>
