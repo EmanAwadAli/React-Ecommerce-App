@@ -39,6 +39,7 @@ export default function SingleProduct() {
       .then((response) => {
         if (response.status === 200) {
           setProductDetails(response.data.data);
+          console.log(response.data.data);
         }
       })
       .catch((error) => console.log(error));
@@ -76,8 +77,8 @@ export default function SingleProduct() {
         <BreadCrumb
           items={[
             {
-              path: "/products",
-              title: "Products",
+              path: `/categories/${productDetails?.category?._id}`,
+              title: productDetails?.category?.name,
             },
           ]}
           activeTitle={`${productDetails?.title}`}
