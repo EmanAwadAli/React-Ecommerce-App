@@ -77,6 +77,10 @@ export default function SingleProduct() {
         <BreadCrumb
           items={[
             {
+              path: "/categories",
+              title: "Categories",
+            },
+            {
               path: `/categories/${productDetails?.category?._id}`,
               title: productDetails?.category?.name,
             },
