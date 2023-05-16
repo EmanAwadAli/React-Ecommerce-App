@@ -39,7 +39,6 @@ export default function SingleProduct() {
       .then((response) => {
         if (response.status === 200) {
           setProductDetails(response.data.data);
-          console.log(response.data.data);
         }
       })
       .catch((error) => console.log(error));
