@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { baseUrl } from "../../utils/baseUrl";
@@ -6,8 +6,10 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { notify } from "../../utils/notify";
+import { CartContext } from "../Context/CartContext";
 
 export default function Register() {
+  const { setCartCount, cartCount } = useContext(CartContext);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -46,6 +48,7 @@ export default function Register() {
           notify("Success", "success");
           setLoading(false);
           navigate("/login");
+          setCartCount(0);
         }
       })
       .catch((error) => {
