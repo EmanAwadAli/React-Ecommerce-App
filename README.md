@@ -26,7 +26,7 @@ npm run dev
 
 ![image](https://github.com/EmanAwadAli/React-Ecommerce-App/assets/54704537/909ecb79-c6a5-4370-a6fd-29e28d6d86dc)
 
-![image](https://github.com/EmanAwadAli/React-Ecommerce-App/assets/54704537/ab97d9de-f211-4f9f-9e61-9a61757a2f5c)
+![image](https://github.com/EmanAwadAli/React-Ecommerce-App/assets/54704537/9dec3de1-288e-4149-98bd-c87ea3eb9e91)
 
 ![image](https://github.com/EmanAwadAli/React-Ecommerce-App/assets/54704537/0bff4f15-3545-4801-bffe-175c522ba1f5)
 
